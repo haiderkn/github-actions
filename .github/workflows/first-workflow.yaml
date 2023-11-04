@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     needs: run-shell-commands
     steps:
-     - name: echo an string
+     - name: echo a string
        run: Write-output "Windows String"
      - name: Error Step
        run: doesnotexits
